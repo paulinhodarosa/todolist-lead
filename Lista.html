@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        <header>   
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBoBGCfBTDL-sHFj2kWebAs9jB5qtQuGfYRQ&s">
+            <h1>INSTITUTO FEDERAL DO PARANÁ</h1>
+        </header>
+    </div>
+
+    <form>
+        <input id="tarefas" type="text" placeholder="digite sua tarefa" required>
+
+        <select id="prioridade">
+            <option value="alta">Prioridade Alta</option>
+            <option value="media">Prioridade Média</option>
+            <option value="baixa">Prioridade Baixa</option>
+        </select>
+
+        <button id="adicionar" type="submit">+</button>
+
+        <button id="desfazer" type="button">Desfazer
+        </button>
+    </form>
+
+    <form id="form-pesquisar">
+        <input id="input-pesquisas" type="text" placeholder="filtre aqui">
+        <button id="pesquisar" type="button">
+            <img src="https://img.icons8.com/dotty/200/FFFFFF/search.png" id="ico-lupa" alt="" srcset="">
+        </button>
+
+    </form>
+
+    <div class="container">
+        <header>
+            
+            <h1>LISTA DE ATIVIDADES</h1>
+            
+                Desenvolvido por Willian e Paulo
+          
+        </header>
+
+        <section>
+            <h2>Atividades:</h2>
+            <ul id="lista-tarefas"></ul>
+        </section>
+
+
+ 
+    </div>
+
+</body>
+<script src="lista.js"></script>
+</html>

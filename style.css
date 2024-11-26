@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#adicionar {
+    height: 40px;
+}
+
+option {
+    font-weight: bold;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+select {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    font-size: 1em;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+button.edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+button.select {
+    background-color: #2196F3;
+    color: white;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+
+span {
+    flex-grow: 1;
+    padding-right: 30px;
+}
+
+#pesquisar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+}
+
+#ico-lupa {
+    width: 30px;
+    height: 30px;
+}
+
+.lixeira, .editar_tarefa, .concluir {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    margin-left: 10px;
+    flex-shrink: 0;
+    background-repeat: no-repeat; /* Garante que a imagem não se repita */
+    background-position: center; /* Alinha a imagem no centro do botão */
+    align-self: center;
+    background-color: transparent;
+}
+
+.lixeira {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3241/3241238.png');
+}
+
+.editar_tarefa {
+    background-image: url('https://img.icons8.com/ios_filled/512/FFFFFF/edit.png');
+}
+
+.concluir {
+    background-image: url('https://cdn-icons-png.flaticon.com/128/1721/1721585.png');
+}
+
+h3 {
+    width: 1000px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#form-pesquisar {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin: 10px 20px;
+    gap: 10px;
+}
+
+#input-pesquisas {
+    width: 450px;
+}
+
+#tarefas {
+    width: 200px;
+}
+
+header img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 90px;
+    background-color: #f4f4f9;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+    flex-grow: 1;
+    margin-left: 10px;
+    align-self: center;
+    text-align: start;
+}
+
+.pAlta, .pMedia, .pBaixa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    width: 600px;
+}
+
+.pAlta {
+    background-color: red;
+}
+
+.pMedia {
+    background-color: orange;
+}
+
+.pBaixa {
+    background-color: green;
+}
+
+
+
